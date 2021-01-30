@@ -30,7 +30,7 @@ class _SignupState extends State<Signup> {
           email: email, password: password);
       user = authResult.user.uid;
     } on PlatformException catch (err) {
-      var message = "An error occured,please check your credentials";
+      var message = "An error occurred, please check your credentials";
       if (err.message != null) {
         message = err.message;
       }
@@ -88,7 +88,7 @@ class _SignupState extends State<Signup> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
-                  "Create an Account",
+                  "Create an account",
                   style: TextStyle(fontSize: 25, color: Colors.black38),
                 ),
               ),
@@ -132,7 +132,7 @@ class _SignupState extends State<Signup> {
                       child: TextFormField(
                         validator: (value) {
                           if (value.isEmpty || !value.contains("@")) {
-                            return "Please Enter the correct emailid";
+                            return "Please enter valid email-id";
                           }
                           return null;
                         },
@@ -165,7 +165,7 @@ class _SignupState extends State<Signup> {
                       child: TextFormField(
                         validator: (value) {
                           if (value.isEmpty || value.length < 10) {
-                            return "Please Enter the Correct number";
+                            return "Please enter valid mobile number";
                           }
                           return null;
                         },
@@ -355,7 +355,7 @@ class _SignupState extends State<Signup> {
                 children: [
                   SizedBox(width: MediaQuery.of(context).size.width / 1.7),
                   Text(
-                    "Existing user ?",
+                    "Existing user?",
                     style: TextStyle(color: Colors.black38, fontSize: 15),
                   ),
                   InkWell(
