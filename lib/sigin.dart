@@ -77,7 +77,7 @@ class _SigninState extends State<Signin> {
                           child: TextFormField(
                             validator: (value) {
                               if (value.isEmpty || !value.contains("@")) {
-                                return "Please Enter the correct emailid";
+                                return "Please enter valid email-id";
                               }
                               return null;
                             },
@@ -86,7 +86,7 @@ class _SigninState extends State<Signin> {
                               email = value;
                             },
                             decoration: InputDecoration(
-                                hintText: "Input Email",
+                                hintText: "Email-ID",
                                 prefixIcon: Icon(
                                   Icons.person,
                                   color: Colors.deepPurple,
@@ -198,7 +198,7 @@ class _SigninState extends State<Signin> {
                       Padding(
                         padding: const EdgeInsets.all(20.0),
                         child: Text(
-                          "Login With Google",
+                          "Login with Google",
                           style: TextStyle(color: Colors.white, fontSize: 20),
                         ),
                       )

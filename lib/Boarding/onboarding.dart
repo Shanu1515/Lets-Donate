@@ -55,37 +55,37 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       key: introKey,
       pages: [
         PageViewModel(
-          title: "Quick Donations at your fingertips",
+          title: "Quick donations at your fingertips!",
           body:
-              "Donations accepted in different forms: Money,Food,Clothes and Others",
+              "Donations accepted in the form of money, food, clothes and anything you'd like you donate to the needy.",
           image: _buildImage('page1'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Pickup from doorstep",
+          title: "Easy pickup right from your doorstep!",
           body:
-              "No need to worry about sending the item to the desired NGOs.We take care of that.",
+              "Wondering how to send your donations to the NGO? Don't worry, we'll take care of it.",
           image: _buildImage('page2'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Secure and Transparent Donation platform",
+          title: "We guarantee a secure and transparent platform to you",
           body:
-              "You can keep the track of donations you made and also the overall donations for the particular cause",
+              "Keep a track of your donations and the progress of your supported cause!",
           image: _buildImage('page3'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Supported by UN's Sustainable development goals",
-          body:
-              "Select the desired goals and show your contributions with just a click",
+          title:
+              "We support and align with the UN's Sustainable Development Goals",
+          body: "Select and support a global cause while making a donation!",
           image: _buildImage('page4'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Small actions x lots of people= Big Change",
+          title: "Small actions * Pool of helpful people = Big change",
           body:
-              "Happiness doesn't result from what we get, but from what we give.\nSo Lets-Donate",
+              "Happiness doesn't result from what we get, but from what we give.\nWe believe in WElfare of all.",
           image: _buildImage('page5'),
           decoration: pageDecoration,
         ),
