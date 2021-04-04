@@ -1,18 +1,28 @@
 # Lets-Donate
 
-This is secure and transparent donation app that supports and aligns with UN’s 17 Sustainable development goals. Basically user can choose the global goal they want to support and provide help in the form of Money, Clothes,Food or others. We have collaborated and registered few NGOs with our app who are working during this crisis. They’ll collect donated items from your doorstep
+This is secure and transparent donation app that supports and aligns with UN’s 17 Sustainable development goals. Basically user can choose the global goal they want to support and provide help in the form of Money, Clothes,Food or other non-monetory type. We have collaborated and registered few NGOs with our app who are working during this crisis. They’ll collect donated items from your doorstep
 
 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Key Features 🔍
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [x] A secure and transparent donation app
+- [x] Aligns with the 17 UN Sustainable Development Goals
+- [x] Contactless pickup service from your doorstep
+- [x] Track your donations at any point of process
+- [x] Photo verification when your donation reaches the needy
+- [x] Promotes donations in all forms, monetary and non-monetary
+- [x] Razorpay payment gateway for secure transactions
+- [x] In-app store to promote the use of eco-friendly goods
+- [x] Spreads awareness for the importance of hygiene
+- [ ] Availale on Google Play Store & App Store
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation 🔨
+
+You can download the repository using Git Bash or Browser 🌎.
+ Git bash command for downloading the repository:
+```console
+git clone https://github.com/Shanu1515/Lets-Donate.git
+```
